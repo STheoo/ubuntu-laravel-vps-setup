@@ -30,7 +30,6 @@ sudo vim /etc/ssh/sshd_config
 ## PermitEmptyPasswords no
 sudo systemctl restart ssh
 
-
 # Create a ssh login shortcut using config alias.
 cd ~/.ssh
 sudo vim config
@@ -42,6 +41,8 @@ Host savvas_user
 	Hostname ip.address
 	IdentityFile ~/.ssh/id_savvas
 '''
+
+################################################################################################################################################################################
 
 # Download PHP and extensions.
 sudo add-apt-repository ppa:ondrej/php
